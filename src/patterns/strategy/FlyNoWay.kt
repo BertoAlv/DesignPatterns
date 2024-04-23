@@ -1,4 +1,4 @@
-package strategypattern
+package patterns.strategy
 
 class FlyNoWay : FlyBehavior {
 
