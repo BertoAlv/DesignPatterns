@@ -25,6 +25,11 @@ class WeatherData : Subject {
         notifyObservers()
     }
 
-
+    fun setMeasurements(temperature: Float, humidity: Float, pressure: Float) {
+        this.temperature = temperature
+        this.humidity = humidity
+        this.pressure = pressure
+        measurementsChanged()
+    }
 
 }
